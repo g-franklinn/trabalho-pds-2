@@ -12,5 +12,9 @@ float calcular_cosseno(float angulo_radianos){
 
 float calcular_tangente(float angulo_radianos){
     float angulo = angulo_radianos * (3.14159265 / 180.0);
-    return tan(angulo);
+    if (cos(angulo) == 0) {
+        return NAN; //Tangente indefinida
+    } else {
+        return tan(angulo);
+    }
 }
