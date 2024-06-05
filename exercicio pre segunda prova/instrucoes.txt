@@ -1,0 +1,13 @@
+Para compilar o projeto:
+
+cd heranca
+g++ -o saida Estagiario.cpp  Funcionario.cpp FuncionarioRegular.cpp Gerente.cpp main.cpp
+./saida
+cd ..
+cd desafio
+g++ -o saida main.cpp Grafo.cpp
+./saida
+cd ..
+cd polimorfismo
+g++ -o saida Caminhao.cpp Van.cpp Veiculo.cpp main.cpp
+./saida
